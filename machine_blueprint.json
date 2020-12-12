@@ -1,0 +1,57 @@
+{
+    "_id" : "Vent001",
+    "company_id" : 100,
+    "name" : "Vent001",
+    "plant_id" : "p5@100",
+    "serialNumber" : "XODG5",
+    "comStatus" : false,
+    "createdAt" : 1587903550551.0,
+    "updatedAt" : 1592070896132.0,
+    "settings" : {
+        "BR" : "12",
+        "ExpTrig" : "0",
+        "InspP" : "15",
+        "InspT" : "1.5",
+        "InspTrig" : "0",
+        "PEEP" : "2",
+        "PSUP" : "5",
+        "RiseT" : "1",
+        "TV" : "300",
+        "VBrthOpt" : "1",
+        "VMode" : "3"
+    },
+    "alarmSettings" : {
+        "APN" : "0",
+        "BR_H" : "43",
+        "BR_L" : "7",
+        "CKTD" : "0",
+        "FIO2_H" : "21",
+        "FIO2_L" : "21",
+        "MV_H" : "44",
+        "MV_L" : "1",
+        "PEEP_H" : "29",
+        "PEEP_L" : "0",
+        "P_H" : "25",
+        "P_L" : "4",
+        "SPO2_H" : "70",
+        "SPO2_L" : "70",
+        "TV_H" : "870",
+        "TV_L" : "100"
+    },
+    "status" : false,
+    "mainMonitoringValues" : {
+        "IP" : 1,
+        "IT" : 3,
+        "PP" : 1,
+        "BR" : 3,
+        "SBR" : 0,
+        "TV" : 3,
+        "IER" : 4,
+        "MV" : 1
+    },
+    "mqttConnections" : {
+        "HOMEMONITORING" : "ION/Vent001/HOMEMONITORING",
+        "STARTSTOP" : "ION/Vent001/STARTSTOP",
+        "SSTARTSTOP" : "ION/Vent001/SSTARTSTOP"
+    }
+}
